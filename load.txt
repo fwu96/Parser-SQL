@@ -1,0 +1,28 @@
+.separator |
+.import User.dat User
+update User set UserID = null where UserID = 'NULL';
+update User set rating = null where rating = 'NULL';
+update User set Location = null where Location = 'NULL';
+update User set Country = null where Country = 'NULL';
+.separator |
+.import ItemAuction.dat ItemAuction
+update ItemAuction set ItemID = null where ItemID = 'NULL';
+update ItemAuction set Name = null where Name = 'NULL';
+update ItemAuction set Currently = null where Currently = 'NULL';
+update ItemAuction set Buy_Price = null where Buy_Price = 'NULL';
+update ItemAuction set First_Bid = null where First_Bid = 'NULL';
+update ItemAuction set Number_of_Bids = null where Number_of_Bids = 'NULL';
+update ItemAuction set Description = null where Description = 'NULL';
+update ItemAuction set Started = null where Started = 'NULL';
+update ItemAuction set Ends = null where Ends = 'NULL';
+update ItemAuction set UserID = null where UserID = 'NULL';
+.separator |
+.import Item_cat.dat Item_cat
+update Item_cat set ItemID = null where ItemID = 'NULL';
+update Item_cat set Category = null where Category = 'NULL';
+.separator |
+.import Bids.dat Bids
+update Bids set ItemID = null where ItemID = 'NULL';
+update Bids set UserID = null where UserID = 'NULL';
+update Bids set Time = null where Time = 'NULL';
+update Bids set Amount = null where Amount = 'NULL';
